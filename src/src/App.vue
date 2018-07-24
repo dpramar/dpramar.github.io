@@ -17,8 +17,20 @@ export default {
 
 <style lang="scss">
 body {
-  font-size: 100%;
   margin: 0;
+  font-size: 50%;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 62.5%;
+  }
 }
 
 #app {

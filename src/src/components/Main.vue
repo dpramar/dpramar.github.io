@@ -23,19 +23,18 @@ export default {
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  padding-left: 25px;
-  padding-top: 80px;
+  padding: 0 25px;
   text-align: left;
 }
 
 .d-main__title {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 500;
   margin-bottom: 10px;
 }
 
 .d-main__description {
-  font-size: 1.2em;
+  font-size: 1.8em;
   font-weight: 300;
   line-height: 1.3em;
   max-width: 700px;
