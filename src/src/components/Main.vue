@@ -1,9 +1,9 @@
 <template>
   <div class="d-main">
-    <div class="d-main__title">Hola! Soy David Del Prado.<br>Desarrollador FrontEnd.</div>
-    <div class="d-main__description">Actualmente trabajo como <em>FrontEnd Developer</em> en <a class="d-link" href="https://www.atsistemas.com/" target="_blank">atSistemas</a>, Madrid.</div>
-    <div class="d-main__description">Apasionado del JavaScript, curioso y con ganas de seguir aprendiendo día a día (ahora jugando con <em>Vue.js</em>).<br>
-      Puedes ver mi cv y contactar conmigo a través de <a class="d-link" href="https://www.linkedin.com/in/daviddelprado/" target="_blank">LinkedIn</a> o consultar mi <a class="d-link" href="https://github.com/dpramar" target="_blank">GitHub</a>.</div>
+    <div class="d-main__title">{{ $t("main.hello") }}<br>{{ $t("main.role") }}</div>
+    <div class="d-main__description" v-html="$t('main.status')"></div>
+    <div class="d-main__description" v-html="$t('main.about')"></div>
+    <div class="d-main__description" v-html="$t('main.contact')"></div>
   </div>
 </template>
 
